@@ -81,3 +81,44 @@ p {
 .h2-sizing {
 	font-size: 4em;
 }
+
+.search {
+	height: 35px;
+}
+
+.header-custom {
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+}
+
+.header-custom2 {
+	font-size: 2em;
+	font-weight: bolder;
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#find-out-more {
+	margin-top: 20px;
+	background-color: #e7c5b1;
+	border-radius: 2px;
+	border: none;
+	color: gray;
+	padding: 12px 30px;
+	text-align: center;
+	border-radius: 40px;
+	transition: 0.3s;
+	outline: none;
+}
+
+#find-out-more:hover {
+	color: black;
+	background-color: #ff0000;
+}
+
+.separate {
+	border-top: 1px gray solid;
+	border-bottom: 1px gray solid;
+	padding: 20px;
+}
