@@ -55,6 +55,10 @@ a.customhover:hover {
 	color: #e7c5b1;
 }
 
+a.footerhover:hover {
+	color: #e7c5b1;
+}
+
 a {
 	transition: 0.3s;
 }
@@ -145,8 +149,33 @@ p {
 }
 
 .colored {
-	background-image: url('redCircle.png');
-	width: 80px;
-	height: 50px;
-	align-items: center;
+	color: red;
+}
+
+.footer-bottom {
+	background-color: rgb(134, 127, 124);
+}
+
+.footer-color {
+	background-color: rgb(224, 224, 224);
+}
+
+.customlol {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.custom-select {
+	width: 150px;
+	background-color: rgb(255, 255, 255);
+	border: none;
+	color: rgb(202, 202, 202);
+	padding: 1px 30px;
+	text-align: center;
+	border-radius: 40px;
+}
+
+.footer-links {
+	color: black;
 }
