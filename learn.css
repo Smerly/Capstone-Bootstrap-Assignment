@@ -110,7 +110,7 @@ p {
 	text-decoration: underline;
 }
 
-#find-out-more {
+.find-out-more {
 	margin-top: 20px;
 	background-color: #e7c5b1;
 	border-radius: 2px;
@@ -123,7 +123,7 @@ p {
 	outline: none;
 }
 
-#find-out-more:hover {
+.find-out-more:hover {
 	color: black;
 	background-color: #ff0000;
 }

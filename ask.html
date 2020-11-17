@@ -96,7 +96,68 @@
 			<!-- Main 1 -->
 
 			<section>
-				<div class="custom-main p-4 mx-5 mr-5"></div>
+				<div class="custom-main p-4 mx-5 mr-5">
+					<form id="box-ask">
+						<div class="column d-flex justify-content-center p-5">
+							<div
+								class="card bg-light d-flex align-items-center p-5"
+								style="width: 1000px; height: 700px"
+							>
+								<input
+									type="text"
+									placeholder="URL of image"
+									id="image-url-input"
+								/>
+								<textarea
+									placeholder="Write some text to post"
+									id="text-box"
+									type="text"
+									name="text-box"
+									style="min-height: 400px; min-width: 400px"
+								></textarea>
+								<button id="post-button" class="find-out-more" type="submit">
+									Post
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</section>
+
+			<!-- How To -->
+
+			<section>
+				<div class="custom-main2 p-4 mx-5">
+					<div class="container">
+						<div class="column">
+							<div class="row">
+								<h2 class="mt-5 pt-5 h2-sizing">Instructions</h2>
+
+								<p
+									class="font-weight-bolder mt-5 pt-5 d-flex justify-content-start"
+								>
+									Here, you can post your questions along with an image for
+									others to see. (Of course, nobody will actually see it because
+									it is not live, but you can input something here and post it.
+									Go back to the "Teach" page after you post something and see
+									it!)
+								</p>
+
+								<h2 class="mt-5 pt-5 h2-sizing">How to Paste the Image</h2>
+
+								<p
+									class="font-weight-bolder mt-5 pt-5 d-flex justify-content-start"
+								>
+									In order to paste an image, you will need to get your image
+									address. To do this (on a browser) right click an image and
+									click on "Copy Image Address" then, it will be copied to your
+									clipboard. From there, you will need to paste the link into
+									the upper box. (feel free to try it, it works!)
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</div>
 		<!-- *** This div tag ABOVE should enclose everything except for the footer *** -->
@@ -139,19 +200,6 @@
 			<div class="footer-bottom p-4">
 				<div class="container d-flex flex-column align-items-center">
 					<p>
-						Art sources by 池上幸輝
-						<a
-							href="https://twitter.com/winter_parasol?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-						>
-							Twitter
-						</a>
-					</p>
-					<p>
-						Art sources by ShuichiW
-						<a href="https://www.pixiv.net/en/users/6006"> Pixiv </a>
-					</p>
-
-					<p>
 						Background source by Javier Gonzalez
 						<a
 							href="https://www.pexels.com/photo/art-blur-close-up-color-89625/"
@@ -167,5 +215,6 @@
 				</div>
 			</div>
 		</section>
+		<script src="ask.js"></script>
 	</body>
 </html>
